@@ -1,0 +1,40 @@
+{
+	"type":"node",
+	"children":[
+		{
+			"camera": {
+				"perspective": [50, 0.7, 0.5, 10000]
+			},
+			"transform": {
+				"position": [0, 0, 60.5],
+				"rotate": [0, 3.14, 0],
+				"scale": [1, 1, -1]
+			},
+			"lut":"script-ColorCorrectionLut-2.jpg"
+		},
+		{
+			"name" : "",
+			"type" : "node",
+			"geometry"  : {
+				"type" : "Plane",
+				"width":64,
+				"height":90
+			},
+			"meshRender" : {
+				"material" : [
+					{
+						"type" : "MeshBasicMaterial",
+						"map"  : {
+							"generateMipmaps" : false,
+							"image": {
+								"name" : "2XWby3pX9PKXnEcutZHsQr.jpg"
+							}
+						}
+					}
+				]
+			}
+			
+		}
+	]
+
+}

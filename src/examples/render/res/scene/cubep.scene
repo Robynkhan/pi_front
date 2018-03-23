@@ -1,0 +1,170 @@
+
+{
+  "name" : "cubep",
+  "type" : "node",
+  "transform" : {
+    "position" : [
+      3.10734558105469,
+      -0.804297566413879,
+      -18.3824443817139
+    ],
+    "scale"    : [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotate"   : [
+      6.12899446487427,
+      3.14159274101257,
+      3.14159274101257
+    ]
+  },
+  "particlesystem" : {
+    "randomSeed" : 1656394310,
+    "useAutoRandomSeed" : true,
+    "main"              : {
+      "duration" : 6.0,
+      "gravityModifierMultiplier" : 0.0,
+      "loop"                      : true,
+      "prewarm"                   : false,
+      "maxParticles"              : 200,
+      "playOnAwake"               : false,
+      "randomizeRotationDirection" : 0.0,
+      "simulationSpeed"            : 6.0,
+      "startDelayMultiplier"       : 0.0,
+      "startLifetimeMultiplier"    : 6.0,
+      "startRotation3D"            : false,
+      "startRotationMultiplier"    : 0.0,
+      "startRotationXMultiplier"   : 0.104719750583172,
+      "startRotationYMultiplier"   : 0.104719750583172,
+      "startRotationZMultiplier"   : 0.0,
+      "startSize3D"                : false,
+      "startSizeMultiplier"        : 6.0,
+      "startSizeXMultiplier"       : 6.0,
+      "startSizeYMultiplier"       : 6.0,
+      "startSizeZMultiplier"       : 6.0,
+      "startSpeedMultiplier"       : 6.0,
+      "customSimulationSpace"      : false,
+      "scalingMode"                : 1,
+      "simulationSpace"            : 0,
+      "gravityModifier"            : {
+        "mode" : 0,
+        "constant" : 0.0
+      },
+      "startColor"                 : {
+        "mode" : 0,
+        "color" : {
+          "r" : 1.0,
+          "g" : 1.0,
+          "b" : 1.0,
+          "a" : 1.0
+        }
+      },
+      "startDelay"                 : {
+        "mode" : 0,
+        "constant" : 0.0
+      },
+      "startLifetime"              : {
+        "mode" : 0,
+        "constant" : 6.0
+      },
+      "startSize"                  : {
+        "mode" : 0,
+        "constant" : 6.0
+      },
+      "startSizeX"                 : {
+        "mode" : 0,
+        "constant" : 6.0
+      },
+      "startSizeY"                 : {
+        "mode" : 0,
+        "constant" : 6.0
+      },
+      "startSizeZ"                 : {
+        "mode" : 0,
+        "constant" : 6.0
+      },
+      "startSpeed"                 : {
+        "mode" : 0,
+        "constant" : 6.0
+      },
+      "startRotation"              : {
+        "mode" : 0,
+        "constant" : 0.0
+      },
+      "startRotationX"             : {
+        "mode" : 0,
+        "constant" : 0.104719750583172
+      },
+      "startRotationY"             : {
+        "mode" : 0,
+        "constant" : 0.104719750583172
+      },
+      "startRotationZ"             : {
+        "mode" : 0,
+        "constant" : 0.0
+      }
+    },
+    "emission"          : {
+      "rateOverDistanceMultiplier" : 0.0,
+      "rateOverTimeMultiplier"     : 10.0,
+      "rateOverDistance"           : {
+        "mode" : 0,
+        "constant" : 0.0
+      },
+      "rateOverTime"               : {
+        "mode" : 0,
+        "constant" : 10.0
+      },
+      "bursts"                     : [
+      ]
+    },
+    "shape"             : {
+      "alignToDirection" : false,
+      "angle"            : 25.0,
+      "arc"              : 360.0,
+      "length"           : 5.0,
+      "meshScale"        : 1.0,
+      "meshShapeType"    : 0,
+      "normalOffset"     : 0.0,
+      "radius"           : 1.0,
+      "randomDirectionAmount" : 0.0,
+      "shapeType"             : 0,
+      "sphericalDirectionAmount" : 0.0,
+      "useMeshColors"            : true,
+      "useMeshMaterialIndex"     : false
+    },
+    "renderer"          : {
+      "sortingFudge" : 0.0,
+      "geometry"     : {
+        "type" : "BufferGeometry",
+        "res"  : "9ajk3yJBaczNo7d3d8vvHn.geo"
+      },
+      "meshRender"   : {
+        "material" : [
+          {
+            "type" : "MeshParticlesMaterial",
+            "map"  : {
+              "filter" : [
+                1006,
+                1007
+              ],
+              "generateMipmaps" : true,
+              "image"           : {
+                "name" : "NDiMP9x8MEhEKXeCRDBu71.png"
+              }
+            },
+            "transparent" : true,
+            "blendSrc"    : 204,
+            "blendDst"    : 201,
+            "side"        : 2,
+            "tintColor"   : 8355711,
+            "tintOpacity" : 0.5,
+            "layer"       : 3000,
+            "blending"    : 5
+          }
+        ]
+      }
+    }
+  }
+}

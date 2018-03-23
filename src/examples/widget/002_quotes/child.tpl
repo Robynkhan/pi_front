@@ -1,0 +1,3 @@
+<div>
+	{{it.child}}
+</div>

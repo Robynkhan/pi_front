@@ -1,0 +1,25 @@
+{
+	"name" : "test",
+	"type" : "node",
+	"geometry"  : {
+		"type" : "BufferGeometry",
+		"res"  : "KtrJ63VtxMQmfpkcKBxGmQ.geo"
+	},
+	"meshRender" : {
+		"material" : [
+		{
+			"type" : "MeshBasicMaterial",
+			"map"  : {
+				"filter" : [
+				  1006,
+				  1006
+				],
+				"generateMipmaps" : false,
+				"image"           : {
+					"name" : "Xr2UMkD3Z9kpdhBRrQw5ra.jpg"
+				}
+			  }
+		}
+		]
+	}
+}

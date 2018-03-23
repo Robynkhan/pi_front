@@ -1,0 +1,31 @@
+
+{
+  "name" : "2d",
+  "type" : "node",
+  "transform" : {
+    "position" : [0,0,0],
+    "scale"    : [1.0,1.0,1.0],
+    "rotate"   : [0.0,0.0,0.0]
+  },
+  "rayID":1,
+  "geometry"  : {
+    "type" : "Plane",
+    "width" : 10.0,
+    "height" : 10.0
+  },
+  "meshRender" : {
+    "material" : [
+      {
+        "type" : "MeshParticlesMaterial",
+        "transparent" : true,
+        "blendSrc"    : 201,
+        "blendDst"    : 200,
+        "side"        : 2,
+        "tintColor"   : 16711680,
+        "tintOpacity" : 0.5,
+        "layer"       : 3000,
+        "blending"    : 5
+      }
+    ]
+  }
+}

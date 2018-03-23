@@ -1,0 +1,224 @@
+/*Grayscale 这个属性，将会使图片变灰。属性值(value)既可以是分数，也可以是百分数，它的作用是使图片更灰或者不灰。*/
+.filter_gray {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+}
+/*Blur 滤镜是使图片模糊。模糊的层度来自于设置的属性值。*/
+.filter_blur2 {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+}
+.filter_blur3 {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+}
+.filter_blur4 {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+}
+.filter_blur {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+}
+/*Saturate 效果可以增加图片的颜色饱和度。这里的属性值是饱和度的比例，例如百分之两百，而百分之百则是不变。*/
+.filter_saturate0 {
+    filter: saturate(0);
+    -webkit-filter: saturate(0);
+    -moz-filter: saturate(0);
+}
+.filter_saturate30 {
+    filter: saturate(0.3);
+    -webkit-filter: saturate(0.3);
+    -moz-filter: saturate(0.3);
+}
+.filter_saturate60 {
+    filter: saturate(0.6);
+    -webkit-filter: saturate(0.6);
+    -moz-filter: saturate(0.6);
+}
+.filter_saturate130 {
+    filter: saturate(1.3);
+    -webkit-filter: saturate(1.3);
+    -moz-filter: saturate(1.3);
+}
+.filter_saturate160 {
+    filter: saturate(1.6);
+    -webkit-filter: saturate(1.6);
+    -moz-filter: saturate(1.6);
+}
+.filter_saturate200 {
+    filter: saturate(2);
+    -webkit-filter: saturate(2);
+    -moz-filter: saturate(2);
+}
+/*Sepia 滤镜对图片的处理效果，犹如回到了五六十年代的那种老照片了。*/
+.filter_sepia {
+    filter: sepia(1);
+    -webkit-filter: sepia(1);
+    -moz-filter: sepia(1);
+}
+/*Hue Rotate 滤镜是对色相进行旋转，通过色相的旋转，我们可以对图片的色彩进行重组。属性值为 360 度里的值。*/
+.filter_hue30 {
+    filter: hue-rotate(20deg);
+    -webkit-filter: hue-rotate(20deg);
+    -moz-filter: hue-rotate(20deg);
+}
+.filter_hue60 {
+    filter: hue-rotate(60deg);
+    -webkit-filter: hue-rotate(60deg);
+    -moz-filter: hue-rotate(60deg);
+}
+.filter_hue80 {
+    filter: hue-rotate(80deg);
+    -webkit-filter: hue-rotate(80deg);
+    -moz-filter: hue-rotate(80deg);
+}
+.filter_hue100 {
+    filter: hue-rotate(100deg);
+    -webkit-filter: hue-rotate(100deg);
+    -moz-filter: hue-rotate(100deg);
+}
+.filter_hue120 {
+    filter: hue-rotate(120deg);
+    -webkit-filter: hue-rotate(120deg);
+    -moz-filter: hue-rotate(120deg);
+}
+.filter_hue140 {
+    filter: hue-rotate(140deg);
+    -webkit-filter: hue-rotate(140deg);
+    -moz-filter: hue-rotate(140deg);
+}
+.filter_hue160 {
+    filter: hue-rotate(160deg);
+    -webkit-filter: hue-rotate(160deg);
+    -moz-filter: hue-rotate(160deg);
+}
+.filter_hue180 {
+    filter: hue-rotate(180deg);
+    -webkit-filter: hue-rotate(180deg);
+    -moz-filter: hue-rotate(180deg);
+}
+.filter_hue200 {
+    filter: hue-rotate(200deg);
+    -webkit-filter: hue-rotate(200deg);
+    -moz-filter: hue-rotate(200deg);
+}
+.filter_hue220 {
+    filter: hue-rotate(220deg);
+    -webkit-filter: hue-rotate(220deg);
+    -moz-filter: hue-rotate(220deg);
+}
+.filter_hue240 {
+    filter: hue-rotate(240deg);
+    -webkit-filter: hue-rotate(240deg);
+    -moz-filter: hue-rotate(240deg);
+}
+.filter_hue260 {
+    filter: hue-rotate(260deg);
+    -webkit-filter: hue-rotate(260deg);
+    -moz-filter: hue-rotate(260deg);
+}
+.filter_hue280 {
+    filter: hue-rotate(280deg);
+    -webkit-filter: hue-rotate(280deg);
+    -moz-filter: hue-rotate(280deg);
+}
+.filter_hue300 {
+    filter: hue-rotate(300deg);
+    -webkit-filter: hue-rotate(300deg);
+    -moz-filter: hue-rotate(300deg);
+}
+.filter_hue330 {
+    filter: hue-rotate(330deg);
+    -webkit-filter: hue-rotate(330deg);
+    -moz-filter: hue-rotate(330deg);
+}
+/*Invert 滤镜是反相效果，看起来就像老相机的底片一样。*/
+.filter_invert {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1);
+}
+/*Brightness 滤镜是对图片的亮度进行处理。*/
+.filter_brightness0 {
+    filter: brightness(0);
+    -webkit-filter: brightness(0);
+    -moz-filter: brightness(0);
+}
+.filter_brightness30 {
+    filter: brightness(0.3);
+    -webkit-filter: brightness(0.3);
+    -moz-filter: brightness(0.3);
+}
+.filter_brightness60 {
+    filter: brightness(0.6);
+    -webkit-filter: brightness(0.6);
+    -moz-filter: brightness(0.6);
+}
+.filter_brightness130 {
+    filter: brightness(1.3);
+    -webkit-filter: brightness(1.3);
+    -moz-filter: brightness(1.3);
+}
+.filter_brightness160 {
+    filter: brightness(1.6);
+    -webkit-filter: brightness(1.6);
+    -moz-filter: brightness(1.6);
+}
+.filter_brightness200 {
+    filter: brightness(2);
+    -webkit-filter: brightness(2);
+    -moz-filter: brightness(2);
+}
+/*Contrast 滤镜是对图片最亮的地方和最暗的地方进行调整，从而改变图片的均衡感。*/
+.filter_contrast0 {
+    filter: contrast(0);
+    -webkit-filter: contrast(0);
+    -moz-filter: contrast(0);
+}
+.filter_contrast30 {
+    filter: contrast(0.3);
+    -webkit-filter: contrast(0.3);
+    -moz-filter: contrast(0.3);
+}
+.filter_contrast60 {
+    filter: contrast(0.6);
+    -webkit-filter: contrast(0.6);
+    -moz-filter: contrast(0.6);
+}
+.filter_contrast130 {
+    filter: contrast(1.3);
+    -webkit-filter: contrast(1.3);
+    -moz-filter: contrast(1.3);
+}
+.filter_contrast160 {
+    filter: contrast(1.6);
+    -webkit-filter: contrast(1.6);
+    -moz-filter: contrast(1.6);
+}
+.filter_contrast200 {
+    filter: contrast(2);
+    -webkit-filter: contrast(2);
+    -moz-filter: contrast(2);
+}
+/*Opacity 透明滤镜。*/
+.filter_opacity0 {
+    filter: opacity(0);
+    -webkit-filter: opacity(0);
+    -moz-filter: opacity(0);
+}
+.filter_opacity30 {
+    filter: opacity(0.3);
+    -webkit-filter: opacity(0.3);
+    -moz-filter: opacity(0.3);
+}
+.filter_opacity60 {
+    filter: opacity(0.6);
+    -webkit-filter: opacity(0.6);
+    -moz-filter: opacity(0.6);
+}

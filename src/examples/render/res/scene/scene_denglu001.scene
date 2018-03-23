@@ -1,0 +1,257 @@
+
+{
+  "name" : "scene_denglu001",
+  "type" : "node",
+  "transform" : {
+    "position" : [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale"    : [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotate"   : [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "children"  : [
+    {
+      "name" : "ys_dl01",
+      "type" : "node",
+      "transform" : {
+        "position" : [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale"    : [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotate"   : [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "children"  : [
+        {
+          "name" : "xuanrenjiemian_sky",
+          "type" : "node",
+          "transform" : {
+            "position" : [
+              0.00213170005008578,
+              4.92759990692139,
+              1.53939998149872
+            ],
+            "scale"    : [
+              1.77786791324615,
+              1.33886206150055,
+              1.66877686977386
+            ],
+            "rotate"   : [
+              4.71238899230957,
+              0.0,
+              0.0
+            ]
+          },
+          "geometry"  : {
+            "type" : "BufferGeometry",
+            "res"  : "SGBGHb4WSrTvRuKHUikuit.geo"
+          },
+          "meshRender" : {
+            "material" : [
+              {
+                "type" : "MeshBasicMaterial",
+                "map"  : {
+                  "filter" : [
+                    1006,
+                    1007
+                  ],
+                  "generateMipmaps" : true,
+                  "image"           : {
+                    "name" : "Xr2UMkD3Z9kpdhBRrQw5ra.jpg"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name" : "xuanrenjiemian_yuanpan",
+          "type" : "node",
+          "transform" : {
+            "position" : [
+              0.120999999344349,
+              -0.522000014781952,
+              0.096000000834465
+            ],
+            "scale"    : [
+              1.0,
+              1.0,
+              1.15394234657288
+            ],
+            "rotate"   : [
+              4.71238899230957,
+              6.02798509597778,
+              0.0
+            ]
+          },
+          "geometry"  : {
+            "type" : "BufferGeometry",
+            "res"  : "KVYFJLHdUPoDEFRzQHzdqM.geo"
+          },
+          "meshRender" : {
+            "material" : [
+              {
+                "type" : "MeshBasicMaterial",
+                "map"  : {
+                  "filter" : [
+                    1006,
+                    1007
+                  ],
+                  "generateMipmaps" : true,
+                  "image"           : {
+                    "name" : "YNTWw2gRU92nu2poK7Xmkw.jpg"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name" : "xuanrenjiemian_shitou_01",
+          "type" : "node",
+          "transform" : {
+            "position" : [
+              0.370999991893768,
+              -0.46000000834465,
+              0.515999972820282
+            ],
+            "scale"    : [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "rotate"   : [
+              4.71238899230957,
+              0.0281137973070145,
+              0.0
+            ]
+          },
+          "geometry"  : {
+            "type" : "BufferGeometry",
+            "res"  : "EsFv2eLjpuMjADH6i4Pdda.geo"
+          },
+          "meshRender" : {
+            "material" : [
+              {
+                "type" : "MeshBasicMaterial",
+                "map"  : {
+                  "filter" : [
+                    1006,
+                    1007
+                  ],
+                  "generateMipmaps" : true,
+                  "image"           : {
+                    "name" : "YNTWw2gRU92nu2poK7Xmkw.jpg"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name" : "xuanrenjiemian_shitou",
+          "type" : "node",
+          "transform" : {
+            "position" : [
+              0.120999999344349,
+              -0.465000003576279,
+              0.096000000834465
+            ],
+            "scale"    : [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "rotate"   : [
+              4.71238899230957,
+              6.02798366546631,
+              0.0
+            ]
+          },
+          "geometry"  : {
+            "type" : "BufferGeometry",
+            "res"  : "4Unea8abnNB2P7YrcFqD7F.geo"
+          },
+          "meshRender" : {
+            "material" : [
+              {
+                "type" : "MeshBasicMaterial",
+                "map"  : {
+                  "filter" : [
+                    1006,
+                    1007
+                  ],
+                  "generateMipmaps" : true,
+                  "image"           : {
+                    "name" : "YNTWw2gRU92nu2poK7Xmkw.jpg"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name" : "xuanrenjiemian_bing",
+          "type" : "node",
+          "transform" : {
+            "position" : [
+              0.300000011920929,
+              -0.379999995231628,
+              0.439999997615814
+            ],
+            "scale"    : [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "rotate"   : [
+              4.71238899230957,
+              0.0,
+              0.0
+            ]
+          },
+          "geometry"  : {
+            "type" : "BufferGeometry",
+            "res"  : "8mvEnz9WeqdE4mnFPUWc63.geo"
+          },
+          "meshRender" : {
+            "material" : [
+              {
+                "type" : "MeshBasicMaterial",
+                "map"  : {
+                  "filter" : [
+                    1006,
+                    1007
+                  ],
+                  "generateMipmaps" : true,
+                  "image"           : {
+                    "name" : "YNTWw2gRU92nu2poK7Xmkw.jpg"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<div on-tap="guide" w-ev-tap="{'stop':false}" style="position:absolute;left:0;top:0;width:100%;height:100%;z-index:111;"></div>

@@ -1,0 +1,13 @@
+.grand{
+    background-color: yellow;
+}
+.a{
+    font-size:20px;
+    background-color:white;
+}
+.b{
+    font-size:40px;
+}
+.c{
+    font-size:80px;
+}

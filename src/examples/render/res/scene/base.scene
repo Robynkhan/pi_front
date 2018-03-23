@@ -1,0 +1,17 @@
+{
+	"name" : "base",
+	"type" : "node",
+	"geometry"  : {
+		"type" : "Plane",
+		"width"  : 5,
+		"height"  : 5
+	},
+	"meshRender" : {
+		"material" : [
+		{
+			"type" : "MeshBasicMaterial",
+			"color"  : "#ff0000"
+		}
+		]
+	}
+}

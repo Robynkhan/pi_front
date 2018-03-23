@@ -1,0 +1,33 @@
+{
+	"src":{
+		"path":"../src/",
+		"dependPath":"./",
+		"ignorepre":[".png.",".jpg.",".jpeg.",".webp."],
+		"ignoresuf":[".d.ts",".md"],
+		"ignoredir":[".vscode/",".sync/","wikiimg/", "boot/", "browser/", "ecs/", "examples/", "render3d/", "tutorial/", "struct/", "ui/"],
+		"dependReg":[
+			{
+				"suf":".ts",
+				"analysis": [{
+					"type":"js",
+					"regs":["^(?:import|export).+?from\\s+?[\"'](\\s*?\\S+?\\s*?)[\"']"]
+				}]
+			}
+		]
+	},
+	"dsts":
+	[
+		{
+			"path":"../../pi_build/dst/pi/",
+			"ignoresuf":[".rs", ".tpl"],
+			"pre":"test1",
+			"tasks":[
+				{
+					"suf":".ts",
+					"proc":"./plugin/ts2commonjs",
+					"remote":"192.168.31.108:6666/pi_master"
+				}
+			]
+		}
+	]
+}

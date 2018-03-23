@@ -1,0 +1,17 @@
+.remove {
+	opacity: 0;
+	transition: all .3s;
+	color: #BE8989;
+}
+
+.content:hover .remove {
+	opacity: 1;
+}
+
+.remove:hover {
+	color: #BC3D3D;
+}
+
+.underline:hover {
+	text-decoration: underline;
+}

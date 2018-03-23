@@ -1,0 +1,51 @@
+
+
+{
+  "name" : "Quad",
+  "type" : "node",
+  "transform" : {
+    "position" : [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale"    : [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotate"   : [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "children"  : [
+  {
+    "name" : "2dtext",
+    "type" : "node",
+    "transform" : {
+      "position" : [0,0,0],
+      "scale"    : [1,1,1],
+      "rotate"   : [0,0,0]
+    },
+    "attachment":"2D",
+    "textCon":{
+      "horizontalAlign":"right",
+      "verticalAlign":"center",
+      "show":"123456",
+      "textcfg":{
+        "hfactor":1.1,
+        "zoomfactor":2,
+        "textAlign":"center",
+        "text":"123456",
+        "font":"normal 400 26px kaiti_bold",
+        "color":{"x1":0,"y1":"45%","x2":0,"y2":"55%","steps":[0,"rgb(206,175,233)",1,"rgb(159,97,212)"] },
+        "strokeWidth":2,
+        "strokeColor":"rgb(0,0,0)",
+        "lineHeight":6,
+        "isPowerOfTwo":true
+      }
+    }
+  }]
+}
